@@ -1,0 +1,7 @@
+venv/
+emu_setup/build/
+emu_setup/pcaps/
+emu_setup/logs/
+*.swp
+__pycache__
+.ipynb_checkpoints

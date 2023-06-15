@@ -1,0 +1,14 @@
+{
+	"frame_len": "uint64",
+	"eth_type": "object",
+	"ip_proto": "uint64",
+	"ip_flags": "object",
+	"ipv6_nxt": "uint64",
+	"ipv6_opt": "uint64",
+	"tcp_srcport": "uint64",
+	"tcp_dstport": "uint64",
+	"tcp_flags": "object",
+	"udp_srcport": "uint64",
+	"udp_dstport": "uint64",
+	"label": "uint64"
+}
