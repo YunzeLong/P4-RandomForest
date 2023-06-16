@@ -1,0 +1,513 @@
+{
+    "target": "bmv2",
+    "p4info": "build/rfroute.p4.p4info.txt",
+    "bmv2_json": "build/rfroute.json",
+    "table_entries": [
+        {
+            "table": "RFIngress.rf_tree_0_0",
+            "default_action": true,
+            "action_name": "RFIngress.rf_compute_0_0",
+            "action_params": {
+                "feature": 1,
+                "threshold": 155,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_0_1",
+            "match": {
+                "meta.last_feature": 1,
+                "meta.last_threshold": 155,
+                "meta.last_res": 1
+            },
+            "action_name": "RFIngress.rf_compute_0_1",
+            "action_params": {
+                "feature": 7,
+                "threshold": 3067,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_0_1",
+            "match": {
+                "meta.last_feature": 1,
+                "meta.last_threshold": 155,
+                "meta.last_res": 2
+            },
+            "action_name": "RFIngress.rf_compute_0_1",
+            "action_params": {
+                "feature": 7,
+                "threshold": 34568,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_0_2",
+            "match": {
+                "meta.last_feature": 7,
+                "meta.last_threshold": 3067,
+                "meta.last_res": 3
+            },
+            "action_name": "RFIngress.rf_compute_0_2",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 5
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_0_2",
+            "match": {
+                "meta.last_feature": 7,
+                "meta.last_threshold": 3067,
+                "meta.last_res": 4
+            },
+            "action_name": "RFIngress.rf_compute_0_2",
+            "action_params": {
+                "feature": 1,
+                "threshold": 65,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_0_2",
+            "match": {
+                "meta.last_feature": 7,
+                "meta.last_threshold": 34568,
+                "meta.last_res": 5
+            },
+            "action_name": "RFIngress.rf_compute_0_2",
+            "action_params": {
+                "feature": 7,
+                "threshold": 2970,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_0_2",
+            "match": {
+                "meta.last_feature": 7,
+                "meta.last_threshold": 34568,
+                "meta.last_res": 6
+            },
+            "action_name": "RFIngress.rf_compute_0_2",
+            "action_params": {
+                "feature": 9,
+                "threshold": 24,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_0_3",
+            "match": {
+                "meta.last_feature": 1,
+                "meta.last_threshold": 65,
+                "meta.last_res": 9
+            },
+            "action_name": "RFIngress.rf_compute_0_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 5
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_0_3",
+            "match": {
+                "meta.last_feature": 1,
+                "meta.last_threshold": 65,
+                "meta.last_res": 10
+            },
+            "action_name": "RFIngress.rf_compute_0_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 5
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_0_3",
+            "match": {
+                "meta.last_feature": 7,
+                "meta.last_threshold": 2970,
+                "meta.last_res": 11
+            },
+            "action_name": "RFIngress.rf_compute_0_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 5
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_0_3",
+            "match": {
+                "meta.last_feature": 7,
+                "meta.last_threshold": 2970,
+                "meta.last_res": 12
+            },
+            "action_name": "RFIngress.rf_compute_0_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 1
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_0_3",
+            "match": {
+                "meta.last_feature": 9,
+                "meta.last_threshold": 24,
+                "meta.last_res": 13
+            },
+            "action_name": "RFIngress.rf_compute_0_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 4
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_0_3",
+            "match": {
+                "meta.last_feature": 9,
+                "meta.last_threshold": 24,
+                "meta.last_res": 14
+            },
+            "action_name": "RFIngress.rf_compute_0_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 4
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_0",
+            "default_action": true,
+            "action_name": "RFIngress.rf_compute_1_0",
+            "action_params": {
+                "feature": 8,
+                "threshold": 729,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_1",
+            "match": {
+                "meta.last_feature": 8,
+                "meta.last_threshold": 729,
+                "meta.last_res": 1
+            },
+            "action_name": "RFIngress.rf_compute_1_1",
+            "action_params": {
+                "feature": 1,
+                "threshold": 155,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_1",
+            "match": {
+                "meta.last_feature": 8,
+                "meta.last_threshold": 729,
+                "meta.last_res": 2
+            },
+            "action_name": "RFIngress.rf_compute_1_1",
+            "action_params": {
+                "feature": 11,
+                "threshold": 4511,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_2",
+            "match": {
+                "meta.last_feature": 1,
+                "meta.last_threshold": 155,
+                "meta.last_res": 3
+            },
+            "action_name": "RFIngress.rf_compute_1_2",
+            "action_params": {
+                "feature": 9,
+                "threshold": 16,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_2",
+            "match": {
+                "meta.last_feature": 1,
+                "meta.last_threshold": 155,
+                "meta.last_res": 4
+            },
+            "action_name": "RFIngress.rf_compute_1_2",
+            "action_params": {
+                "feature": 1,
+                "threshold": 246,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_2",
+            "match": {
+                "meta.last_feature": 11,
+                "meta.last_threshold": 4511,
+                "meta.last_res": 5
+            },
+            "action_name": "RFIngress.rf_compute_1_2",
+            "action_params": {
+                "feature": 10,
+                "threshold": 56381,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_2",
+            "match": {
+                "meta.last_feature": 11,
+                "meta.last_threshold": 4511,
+                "meta.last_res": 6
+            },
+            "action_name": "RFIngress.rf_compute_1_2",
+            "action_params": {
+                "feature": 9,
+                "threshold": 16,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_3",
+            "match": {
+                "meta.last_feature": 9,
+                "meta.last_threshold": 16,
+                "meta.last_res": 7
+            },
+            "action_name": "RFIngress.rf_compute_1_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 5
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_3",
+            "match": {
+                "meta.last_feature": 9,
+                "meta.last_threshold": 16,
+                "meta.last_res": 8
+            },
+            "action_name": "RFIngress.rf_compute_1_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 5
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_3",
+            "match": {
+                "meta.last_feature": 1,
+                "meta.last_threshold": 246,
+                "meta.last_res": 9
+            },
+            "action_name": "RFIngress.rf_compute_1_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 4
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_3",
+            "match": {
+                "meta.last_feature": 1,
+                "meta.last_threshold": 246,
+                "meta.last_res": 10
+            },
+            "action_name": "RFIngress.rf_compute_1_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 4
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_3",
+            "match": {
+                "meta.last_feature": 10,
+                "meta.last_threshold": 56381,
+                "meta.last_res": 11
+            },
+            "action_name": "RFIngress.rf_compute_1_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 4
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_3",
+            "match": {
+                "meta.last_feature": 10,
+                "meta.last_threshold": 56381,
+                "meta.last_res": 12
+            },
+            "action_name": "RFIngress.rf_compute_1_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 5
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_3",
+            "match": {
+                "meta.last_feature": 9,
+                "meta.last_threshold": 16,
+                "meta.last_res": 13
+            },
+            "action_name": "RFIngress.rf_compute_1_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 5
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_1_3",
+            "match": {
+                "meta.last_feature": 9,
+                "meta.last_threshold": 16,
+                "meta.last_res": 14
+            },
+            "action_name": "RFIngress.rf_compute_1_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 5
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_2_0",
+            "default_action": true,
+            "action_name": "RFIngress.rf_compute_2_0",
+            "action_params": {
+                "feature": 7,
+                "threshold": 3067,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_2_1",
+            "match": {
+                "meta.last_feature": 7,
+                "meta.last_threshold": 3067,
+                "meta.last_res": 1
+            },
+            "action_name": "RFIngress.rf_compute_2_1",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 5
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_2_1",
+            "match": {
+                "meta.last_feature": 7,
+                "meta.last_threshold": 3067,
+                "meta.last_res": 2
+            },
+            "action_name": "RFIngress.rf_compute_2_1",
+            "action_params": {
+                "feature": 9,
+                "threshold": 22,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_2_2",
+            "match": {
+                "meta.last_feature": 9,
+                "meta.last_threshold": 22,
+                "meta.last_res": 5
+            },
+            "action_name": "RFIngress.rf_compute_2_2",
+            "action_params": {
+                "feature": 7,
+                "threshold": 5110,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_2_2",
+            "match": {
+                "meta.last_feature": 9,
+                "meta.last_threshold": 22,
+                "meta.last_res": 6
+            },
+            "action_name": "RFIngress.rf_compute_2_2",
+            "action_params": {
+                "feature": 9,
+                "threshold": 24,
+                "result": 0
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_2_3",
+            "match": {
+                "meta.last_feature": 7,
+                "meta.last_threshold": 5110,
+                "meta.last_res": 11
+            },
+            "action_name": "RFIngress.rf_compute_2_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 1
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_2_3",
+            "match": {
+                "meta.last_feature": 7,
+                "meta.last_threshold": 5110,
+                "meta.last_res": 12
+            },
+            "action_name": "RFIngress.rf_compute_2_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 5
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_2_3",
+            "match": {
+                "meta.last_feature": 9,
+                "meta.last_threshold": 24,
+                "meta.last_res": 13
+            },
+            "action_name": "RFIngress.rf_compute_2_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 4
+            }
+        },
+        {
+            "table": "RFIngress.rf_tree_2_3",
+            "match": {
+                "meta.last_feature": 9,
+                "meta.last_threshold": 24,
+                "meta.last_res": 14
+            },
+            "action_name": "RFIngress.rf_compute_2_3",
+            "action_params": {
+                "feature": 0,
+                "threshold": 0,
+                "result": 5
+            }
+        }
+    ]
+}
